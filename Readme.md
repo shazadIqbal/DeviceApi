@@ -39,7 +39,7 @@ A RESTful Spring Boot application to manage devices with full CRUD functionality
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone <https://github.com/shazadIqbal/DeviceApi>
 cd device-api
 ```
 
@@ -144,13 +144,6 @@ services:
 ## 📌 Notes
 
 * Ensure PostgreSQL container is up before Spring Boot starts
-* Add `-parameters` flag in `build.gradle` to support path variable binding:
-
-```groovy
-tasks.withType(JavaCompile) {
-    options.compilerArgs << "-parameters"
-}
-```
 
 * Lombok is used, so enable annotation processing in your IDE
 
@@ -158,4 +151,4 @@ tasks.withType(JavaCompile) {
 
 ## 👨‍💻 Author & License
 
-Created by \[Your Name]. MIT License or your preferred license.
+Created by Shahzad Iqbal.
